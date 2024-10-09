@@ -1,0 +1,29 @@
+#galeri{
+    color: #56c6fd;        
+    border-bottom: 2px solid #56c6fd;
+    } 
+.isi-foto img{
+    width: 500px;
+    height: auto;
+    margin: 20px;
+}
+.isi-foto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+@media screen and (max-width: 768px){
+
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 576px){
+    .isi-foto img{
+        width: 300px;
+        height: auto;
+        margin: 20px;
+    }
+
+}

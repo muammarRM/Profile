@@ -1,0 +1,58 @@
+#about{
+    color: #56c6fd;        
+    border-bottom: 2px solid #56c6fd;
+    } 
+.judul h1{
+    background-color: #56c6fd;
+    border-radius: 40px;
+    padding: 20px 0;
+    }
+
+article{
+    font-size:20px;
+    padding: 100px 150px 100px 150px;
+    text-transform: uppercase;
+    height: auto;
+}
+main{
+    background-image: url(scr/Background.png);
+    background-size:100%;
+}
+p{
+    background-color: #75cffc;
+    border-radius: 25px;
+    border: 5px solid #ffffff;
+    padding: 50px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 576px){
+    .judul h1{
+        background-color: #56c6fd;
+        border-radius: 40px;
+        padding: 20px;
+        }
+    
+    article{
+        font-size:15px;
+        padding: 20px;
+        text-transform: uppercase;
+        height: auto;
+    }
+    main{
+        background-image: url(scr/Background.png);
+        background-size:100%;
+    }
+    p{
+        background-color: #75cffc;
+        border-radius: 25px;
+        border: 5px solid #ffffff;
+        padding: 10px;
+        text-align: justify;
+    }
+}

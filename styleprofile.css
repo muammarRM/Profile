@@ -1,0 +1,62 @@
+#profile{
+    color: #56c6fd;        
+    border-bottom: 2px solid #56c6fd;
+    } 
+.isi-h2{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.isi-tabel{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+
+}
+ .isi-tr, .isi-tr,td{
+    border-bottom: 1px solid #000;
+    border-collapse: collapse;  
+    padding: 10px;
+    line-height: 3.5em; 
+    text-align: left;
+    font-size: 20px;
+}
+table{
+    margin-bottom: 50px;
+    width: 900px;
+}
+
+@media screen and (max-width: 768px){
+
+    
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 576px){
+
+    .isi-h2{
+        font-size: 15px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        letter-spacing: 0.2em;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    table{
+        width: 350px;
+    }
+    .isi-tr, .isi-tr td{
+        border-bottom: 1px solid #000;
+        border-collapse: collapse;
+        padding: 5px;
+        line-height: 3.5em; 
+    }
+    .isi-tr td{
+        font-size: 15px;
+    }
+}
